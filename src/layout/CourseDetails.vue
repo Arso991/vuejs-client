@@ -2,9 +2,8 @@
     <div class="flex h-screen">
         <div class="bg-white w-1/2 m-auto border-1  border-dashed border-gray-100 shadow-md rounded-lg overflow-hidden">
             <div class="h-[20rem]">
-                <CustomeMap />
-                <!-- <img src="https://via.placeholder.com/400x300" alt=""
-                    class="w-[100%] h-[100%] object-cover object-center" /> -->
+                <img src="https://via.placeholder.com/400x300" alt=""
+                    class="w-[100%] h-[100%] object-cover object-center" />
             </div>
             <div class="p-4" v-for="element in courseData">
                 <p class="mb-1 text-gray-900 font-semibold">Title: <span class="text-gray-500 font-normal">{{ element.title
